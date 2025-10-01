@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;;
+    color: #F5F5F5;
+}
+
+header {
+    background-color: #4a6b46;
+    height: 180px;
+    padding: 25px;
+    position: relative;
+}
+
+#main-title {
+    text-align: center;
+    font-size: 4rem;
+}
+
+#main-description {
+    text-align: center;
+}
+
+nav {
+    background-color: #F5F5F5;
+    padding: 15px;
+    color: white;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+}
+
+
+a {
+    color: #0D0D0D;
+}
+
+nav a:visited {
+    color: black;
+   
+}
+
+nav a:hover {
+    color:#21964a;
+}
+
+
+main {
+    background-color: #0D0D0D;
+    padding: 20px;
+}
+
+.div-banner {
+    align-items: center;
+    justify-content: center;
+}
+
+
+.banner {
+    border: 1px solid black;
+    width: 65%;
+    max-width: 100%;
+    height: 350px;
+    align-items: center;
+    margin: 0 auto;
+    display: block;
+    
+}
+
+.div-banner > p {
+    text-align: center;
+}
+
+
+/*SECTION LATERAL obviamente*/
+.sec-lateral {
+    background-color: #4a6b46;
+    float: right;
+    width: 25%;
+    height: 40%;
+    margin: 40px 0px;
+    border: 3px solid black;
+    
+    
+}
+
+.imagens-seclateral {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: block;
+    margin: 0 auto;
+}
+
+.imagens-seclateral:hover {
+    transform: scale(1.10);
+}
+
+.sec-lateral p {
+    text-align: center;
+    color:#0D0D0D;
+    
+}
+
+.sec-lateral h5 {
+    text-align: center;
+    font-size: medium;
+
+}
+
+
+h3 {
+    text-align: center;
+    color: #F5F5F5;
+}
+
+
+h5 {
+    color:#0D0D0D;
+}
+
+
+/*SECTIONS PRINCIPAIS!!! */
+section {
+    background-color: #202020;
+    width: 70%;
+    max-width: 100%;
+    padding: 30px;
+    margin: 40px 0px;
+    border: 3px solid black;
+}
+
+
+.secoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px;
+}
+
+.card {
+  
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 calc(25% - 10px);
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.card p {
+    text-align: center;
+    align-items: center;
+    font-size: medium;
+    color: #F5F5F5;
+    
+
+}
+
+
+.img-card {
+  
+    height: 150px;
+    width: 150px;
+    margin: 5px auto;
+    border: 1px solid black;
+    gap: 8px;
+    
+    
+}
+
+.img-card:hover {
+  transform: scale(1.30);
+}
+
+footer {
+    text-align: center;
+    background-color: #4a6b46;
+    height: 140px;
+}
+
+
+
+
+/*Menu Mobile*/
+
+#menuToggle {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (min-width: 501px) and (max-width: 800px) {
+    
+  .header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+  }
+  .header nav {
+    display: absolute;
+      width: 100%;
+      height: 100%;
+  }
+  .menu {
+      display: flex;
+      position: fixed;
+      flex-wrap: wrap;
+      align-content: center;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 0%;
+      background-color: rgba(0, 0, 0, 0.7);
+      overflow: hidden;
+      -webkit-transition: height 0.3s;
+      -moz-transition: height 0.3s;
+      -ms-transition: height 0.3s;
+      -o-transition: height 0.3s;
+      transition: height 0.3s;
+  }
+
+  .menu li {
+    display: block;
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+
+  .menu li a {
+      display: block;
+      text-align: center;
+      width: 100%;
+      color: #F5F5F5;
+
+  }
+  .menu-icon {
+      width: 50px;
+      height: inherit;
+      display: block;
+      position: absolute;
+      top: 15px;
+      right: 30px;
+      line-height: 60px;
+      color: white;
+      z-index: 999;
+  }
+  #menuToggle:checked ~ label i:nth-child(2) {
+    display: block;
+  }
+  #menuToggle:checked ~ label i:first-child {
+    display: none;
+  }
+  #menuToggle:not(:checked) ~ label i:first-child {
+    display: block;
+  }
+  #menuToggle:not(:checked) ~ label i:nth-child(2) {
+    display: none;
+  }
+
+  #menuToggle:checked ~ ul {
+      height: 100%;
+  }
+  .menu-icon i {
+      font-size: 1.7em;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+  }
+  .header nav {
+    display: absolute;
+      width: 100%;
+      height: 100%;
+  }
+  .menu {
+      display: flex;
+      position: fixed;
+      flex-wrap: wrap;
+      align-content: center;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 0%;
+      background-color: rgba(0, 0, 0, 0.7);
+      overflow: hidden;
+      -webkit-transition: height 0.3s;
+      -moz-transition: height 0.3s;
+      -ms-transition: height 0.3s;
+      -o-transition: height 0.3s;
+      transition: height 0.3s;
+  }
+
+  .menu li {
+    display: block;
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+
+  .menu li a {
+      display: block;
+      text-align: center;
+      width: 100%;
+      color: #F5F5F5;
+
+  }
+  .menu-icon {
+      width: 50px;
+      height: inherit;
+      display: block;
+      position: absolute;
+      top: 15px;
+      right: 30px;
+      line-height: 60px;
+      color: white;
+      z-index: 999;
+  }
+  #menuToggle:checked ~ label i:nth-child(2) {
+    display: block;
+  }
+  #menuToggle:checked ~ label i:first-child {
+    display: none;
+  }
+  #menuToggle:not(:checked) ~ label i:first-child {
+    display: block;
+  }
+  #menuToggle:not(:checked) ~ label i:nth-child(2) {
+    display: none;
+  }
+
+  #menuToggle:checked ~ ul {
+      height: 100%;
+  }
+  .menu-icon i {
+      font-size: 1.7em;
+  }
+}
+
+
+/*MEDIA QUERIES*/
+
+
+
+/*TELAS PRA MAIS DE 1430PX*/
+@media screen and (min-width: 1430px) {
+  section {
+    background-color: #202020;
+    width: 70%;
+    max-width: 100%;
+    padding: 30px;
+    margin: 40px 0px;
+    border: 3px solid black;
+  }
+
+
+  .secoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px;
+  }
+
+  .card {
+  
+  padding: 30px;
+  flex: 1 1 calc(25% - 15px);
+   align-items: center;
+  justify-content: center;
+  justify-content: center;
+  }
+}
+
+
+
+
+/*DESKTOP NORMAL*/
+@media screen and (min-width: 801px) and (max-width: 1429px){
+   section {
+    background-color: #202020;
+    width: 70%;
+    max-width: 100%;
+    padding: 15px;
+    margin: 30px 0px;
+    border: 3px solid black;
+  }
+
+  .secoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+  }
+
+  .card {
+  
+    padding: 30px;
+    flex: 1 1 calc(33% - 10px);
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+  }
+
+  .secoes .card:nth-child(7), .secoes .card:nth-child(8) {
+    display: none;
+  }
+}
+
+
+
+
+
+
+/*TELAS PEQUENAS*/
+@media screen and (min-width: 501px) and (max-width: 800px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sec-lateral {
+    width: 50%;
+    margin: 50px auto;
+  }
+
+  section {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .secoes {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 calc (50% - 5px);
+  }
+
+  .card p {
+    text-align: center;
+  }
+
+  .banner {
+    max-width: 100%;
+  }
+
+}
+
+  
+
+
+
+/*TELAS MENORES*/
+@media screen and (max-width: 500px) {
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner {
+    max-width: 100%;
+  }
+
+  #main-title {
+    font-size: 2.5rem;
+  }
+
+
+  .sec-lateral {
+    width: 100%;
+  }
+
+  section {
+    width: 100%;
+  }
+
+  .secoes {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .card img {
+
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .card p {
+    text-align: center;
+  }
+
+  footer {
+    height: 180px;
+  }
+}
