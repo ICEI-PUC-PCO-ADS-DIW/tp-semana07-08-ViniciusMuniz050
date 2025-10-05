@@ -7,8 +7,64 @@
     <title>Detalhes</title>
 </head>
 <body>
+
+    <header>
+        <h1 id="main-title">Cafe Disco!</h1>
+        <p id="main-description">Sua maior fonte de informação sobre artistas e músicas </p>
+    </header>
+
+    <nav>
+        <input type="checkbox" id="menuToggle">
+        <label for="menuToggle" class="menu-icon">
+            <i class="fa-sharp-duotone fa-solid fa-bars"></i>
+            <i class="fa fa-times-circle"></i>
+        </label>
+        <ul class="menu">
+            <li class="op-menu"><a href="#">Home</a></li>
+            <li class="op-menu"><a href="#">Sobre o Cafe Disco</a></li>
+            <li class="op-menu"><a href="#">Contexto</a></li>
+            <li class="op-menu"><a href="#">Contato</a></li>
+        </ul>
+
+        
+    </nav>
+
+    <main>
+        <div id="exibicao">
+
+    </div>
+    </main>
+    
     
 
     <script src="app.js"></script>
+    <script>
+
+        document.body.style.backgroundColor = "#0D0D0D"
+
+        let params = new URLSearchParams(location.search)  
+        let id = params.get('id')
+        album = dados.find(function (elem) {  //procurando no meu array quando meu elem (elemento que passara nos elementos) tenha um id igual ao que eu tenho da linha acima 
+            return elem.id == id
+        });
+        if (album) {
+            const exibicao = document.getElementById('exibicao')
+
+            exibicao.innerHTML = `<br> <img src="${album.imagem}" class="img-card" style="display:block; margin: 0 auto;"> <br>
+                <h3>${album.album}</h3>
+                <h4>Artista: ${album.artista}</h4>
+                <h4>Ano de lançamento: ${album.ano}</h4>
+                <h4>Gênero: ${album.genero}</h4>
+                <h4>Quantidade de faixas: ${album.qntfaixas}</h4>
+                <h4>Duração: ${album.duracao} minutos</h4>
+                <br>`
+                
+        }
+        else {
+            exibicao.innerHTML = "Página não encontrada! Tente novamente"
+        }
+
+
+    </script>
 </body>
 </html>

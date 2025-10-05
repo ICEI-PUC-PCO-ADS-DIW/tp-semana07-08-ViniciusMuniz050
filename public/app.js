@@ -1,3 +1,4 @@
+
 const dados = [
 
     
@@ -7,7 +8,7 @@ const dados = [
             "artista": "Bad Bunny",
             "ano": 2025,
             "genero": "Reggaeton",
-            "qnt-faixas": 17,
+            "qntfaixas": 17,
             "duracao": 62,
             "imagem": "imgs/dtmf.jpg"
         },
@@ -18,7 +19,7 @@ const dados = [
             "artista": "Mac Miller",
             "ano": 2025,
             "genero": "Neo-soul",
-            "qnt-faixas": 14,
+            "qntfaixas": 14,
             "duracao": 58,
             "imagem": "imgs/balloonerism.jpg"
         },
@@ -29,7 +30,7 @@ const dados = [
             "artista": "Emicida",
             "ano": 2010,
             "genero": "Hip-hop",
-            "qnt-faixas": 18,
+            "qntfaixas": 18,
             "duracao": 58,
             "imagem": "imgs/emicidio.jpg"
         },
@@ -40,7 +41,7 @@ const dados = [
             "artista": "Daft Punk",
             "ano": 2013,
             "genero": "Disco",
-            "qnt-faixas": 13,
+            "qntfaixas": 13,
             "duracao": 74,
             "imagem": "imgs/ram.jpg"
         },
@@ -51,7 +52,7 @@ const dados = [
             "artista": "System Of A Down",
             "ano": 2001,
             "genero": "Rock",
-            "qnt-faixas": 15,
+            "qntfaixas": 15,
             "duracao": 44,
             "imagem": "imgs/toxicity.jpg"
         },
@@ -62,7 +63,7 @@ const dados = [
             "artista": "Tyler, The Creator",
             "ano": 2019,
             "genero": "R&B",
-            "qnt-faixas": 12,
+            "qntfaixas": 12,
             "duracao": 39,
             "imagem": "imgs/igor.jpg"
         },
@@ -73,7 +74,7 @@ const dados = [
             "artista": "Filipe Ret",
             "ano": 2018,
             "genero": "Rap",
-            "qnt-faixas": 13,
+            "qntfaixas": 13,
             "duracao": 51,
             "imagem": "imgs/audaz.jpg"
         },
@@ -84,7 +85,7 @@ const dados = [
             "artista": "Bad Bunny",
             "ano": 2022,
             "genero": "Reggaeton",
-            "qnt-faixas": 23,
+            "qntfaixas": 23,
             "duracao": 81,
             "imagem": "imgs/unveranosinti.jpg"
         },
@@ -96,7 +97,7 @@ const dados = [
             "artista": "Black Eyed Peas",
             "ano": 2009,
             "genero": "Eletrônica",
-            "qnt-faixas": 25,
+            "qntfaixas": 25,
             "duracao": 103,
             "imagem": "imgs/theend.png"
         },
@@ -107,7 +108,7 @@ const dados = [
             "artista": "Charlie Brown Jr",
             "ano": 2003,
             "genero": "Rock",
-            "qnt-faixas": 20,
+            "qntfaixas": 20,
             "duracao": 70,
             "imagem": "imgs/acusticocbjr.jpg"
         },
@@ -118,7 +119,7 @@ const dados = [
             "artista": "Linkin Park",
             "ano": 2003,
             "genero": "Rock",
-            "qnt-faixas": 13,
+            "qntfaixas": 13,
             "duracao": 36,
             "imagem": "imgs/meteora.jpg"
         },
@@ -129,7 +130,7 @@ const dados = [
             "artista": "Linkin Park",
             "ano": 2000,
             "genero": "Rock",
-            "qnt-faixas": 15,
+            "qntfaixas": 15,
             "duracao": 49,
             "imagem": "imgs/hybridtheory.jpg"
         },
@@ -140,7 +141,7 @@ const dados = [
             "artista": "Frank Ocean",
             "ano": 2016,
             "genero": "R&B",
-            "qnt-faixas": 17,
+            "qntfaixas": 17,
             "duracao": 60,
             "imagem": "imgs/blonde.jpg"
         },
@@ -151,7 +152,7 @@ const dados = [
             "artista": "Skank",
             "ano": 2008,
             "genero": "Rock",
-            "qnt-faixas": 12,
+            "qntfaixas": 12,
             "duracao": 53,
             "imagem": "imgs/estandarte.jpg"
         },
@@ -162,7 +163,7 @@ const dados = [
             "artista": "Green Day",
             "ano": 2004,
             "genero": "Rock",
-            "qnt-faixas": 9,
+            "qntfaixas": 9,
             "duracao": 57,
             "imagem": "imgs/americanidiot.jpg"
         },
@@ -173,7 +174,7 @@ const dados = [
             "artista": "Bezerra da Silva",
             "ano": 1990,
             "genero": "Samba",
-            "qnt-faixas": 12,
+            "qntfaixas": 12,
             "duracao": 40,
             "imagem": "imgs/eunaosousanto.jpg"
         },
@@ -184,7 +185,7 @@ const dados = [
             "artista": "Michael Jackson",
             "ano": 1982,
             "genero": "Pop",
-            "qnt-faixas": 9,
+            "qntfaixas": 9,
             "duracao": 42,
             "imagem": "imgs/thriller.jpg"
         },
@@ -195,7 +196,7 @@ const dados = [
             "artista": "Earth, Wind & Fire",
             "ano": 1981,
             "genero": "Disco",
-            "qnt-faixas": 9,
+            "qntfaixas": 9,
             "duracao": 38,
             "imagem": "imgs/raise.jpg"
         },
@@ -206,7 +207,7 @@ const dados = [
             "artista": "Milton Nascimento - Lô Borges",
             "ano": 1972,
             "genero": "MPB",
-            "qnt-faixas": 21,
+            "qntfaixas": 21,
             "duracao": 64,
             "imagem": "imgs/clubedaesquina.jpg"
         },
@@ -217,7 +218,7 @@ const dados = [
             "artista": "Feid",
             "ano": 2023,
             "genero": "Reggaeton",
-            "qnt-faixas": 16,
+            "qntfaixas": 16,
             "duracao": 44,
             "imagem": "imgs/mor.jpg"
         },
@@ -228,7 +229,7 @@ const dados = [
             "artista": "Tim Maia",
             "ano": 1975,
             "genero": "MPB",
-            "qnt-faixas": 9,
+            "qntfaixas": 9,
             "duracao": 33,
             "imagem": "imgs/racional.jpg"
         },
@@ -239,7 +240,7 @@ const dados = [
             "artista": "The Cranberries",
             "ano": 1994,
             "genero": "Rock Alternativo",
-            "qnt-faixas": 13,
+            "qntfaixas": 13,
             "duracao": 50,
             "imagem": "imgs/noneedtoargue.jpg"
         },
@@ -250,7 +251,7 @@ const dados = [
             "artista": "Bob Marley & The Wailers",
             "ano": 1977,
             "genero": "Reggae",
-            "qnt-faixas": 10,
+            "qntfaixas": 10,
             "duracao": 37,
             "imagem": "imgs/exodus.jpg"
         },
@@ -261,7 +262,7 @@ const dados = [
             "artista": "Nas",
             "ano": 1994,
             "genero": "Hip-Hop",
-            "qnt-faixas": 10,
+            "qntfaixas": 10,
             "duracao": 39,
             "imagem": "imgs/illmatic.jpg"
         },
@@ -272,7 +273,7 @@ const dados = [
             "artista": "J. Cole",
             "ano": 2014,
             "genero": "Rap",
-            "qnt-faixas": 13,
+            "qntfaixas": 13,
             "duracao": 64,
             "imagem": "imgs/2014fhd.jpg"
         },
@@ -283,7 +284,7 @@ const dados = [
             "artista": "Childish Gambino",
             "ano": 2016,
             "genero": "Soul",
-            "qnt-faixas": 11,
+            "qntfaixas": 11,
             "duracao": 48,
             "imagem": "imgs/awakenmylove.jpg"
         },
@@ -294,7 +295,7 @@ const dados = [
             "artista": "Kendrick Lamar",
             "ano": 2015,
             "genero": "Rap",
-            "qnt-faixas": 16,
+            "qntfaixas": 16,
             "duracao": 78,
             "imagem": "imgs/topimp.jpg"
         },
@@ -305,7 +306,7 @@ const dados = [
             "artista": "Rihanna",
             "ano": 2016,
             "genero": "Pop",
-            "qnt-faixas": 16,
+            "qntfaixas": 16,
             "duracao": 50,
             "imagem": "imgs/anti.jpg"
         },
@@ -316,7 +317,7 @@ const dados = [
             "artista": "Drake",
             "ano": 2016,
             "genero": "Rap",
-            "qnt-faixas": 20,
+            "qntfaixas": 20,
             "duracao": 81,
             "imagem": "imgs/views.jpg"
         },
@@ -327,7 +328,7 @@ const dados = [
             "artista": "Blink-182",
             "ano": 1995,
             "genero": "Punk",
-            "qnt-faixas": 16,
+            "qntfaixas": 16,
             "duracao": 41,
             "imagem": "imgs/cheshirecat.jpg"
         },
@@ -338,7 +339,7 @@ const dados = [
             "artista": "Outkast",
             "ano": 1998,
             "genero": "Rap",
-            "qnt-faixas": 16,
+            "qntfaixas": 16,
             "duracao": 74,
             "imagem": "imgs/aquemini.jpg"
         },
@@ -349,7 +350,7 @@ const dados = [
             "artista": "J. Cole",
             "ano": 2013,
             "genero": "Rap",
-            "qnt-faixas": 21,
+            "qntfaixas": 21,
             "duracao": 78,
             "imagem": "imgs/bornsinner.jpg"
         },
@@ -360,7 +361,7 @@ const dados = [
             "artista": "Emicida",
             "ano": 2009,
             "genero": "Hip-Hop",
-            "qnt-faixas": 25,
+            "qntfaixas": 25,
             "duracao": 78,
             "imagem": "imgs/pqjccpcaqecl.jpg"
         },
@@ -371,7 +372,7 @@ const dados = [
             "artista": "Rage Against The Machine",
             "ano": 1996,
             "genero": "Rock",
-            "qnt-faixas": 11,
+            "qntfaixas": 11,
             "duracao": 46,
             "imagem": "imgs/evilempire.jpg"
         },
@@ -382,7 +383,7 @@ const dados = [
             "artista": "Racionais M.C",
             "ano": 1997,
             "genero": "Hip-Hop",
-            "qnt-faixas": 12,
+            "qntfaixas": 12,
             "duracao": 73,
             "imagem": "imgs/sobrevivendonoinferno.jpg"
         },
@@ -393,7 +394,7 @@ const dados = [
             "artista": "Djonga",
             "ano": 2025,
             "genero": "Rap",
-            "qnt-faixas": 12,
+            "qntfaixas": 12,
             "duracao": 42,
             "imagem": "imgs/qmecmfes.jpg"
         },
@@ -404,7 +405,7 @@ const dados = [
             "artista": "Avenged Sevenfold",
             "ano": 2010,
             "genero": "Rock",
-            "qnt-faixas": 11,
+            "qntfaixas": 11,
             "duracao": 66,
             "imagem": "imgs/nightmare.jpg"
         }

@@ -113,7 +113,7 @@
         
 
         <section id="tela">
-
+            <h3>Suas músicas favoritas</h3>
         </section>
         
 
@@ -141,6 +141,9 @@
             const card = document.createElement('div')  //criando variavel E elemento card
             card.classList.add('card')  //adicionado a classe card
 
+            const link = document.createElement('a') // criando o link para anexar na img
+            link.href = `detalhes.html?id=${albuns.id}`
+
             const img = document.createElement('img')  //criando variavel E elemento img
             img.src = albuns.imagem   //caminho da imagem, puxando la do json
             img.classList.add('img-card')  //adicionando a classe
@@ -148,7 +151,8 @@
             const titulo = document.createElement('p')  //variavel titulo e elemento p
             titulo.textContent = albuns.album  //caminho do nome do album lá do json
 
-            card.appendChild(img)  //add imagem no card criado
+            link.appendChild(img) //anexa img no link
+            card.appendChild(link) //add link no card criado
             card.appendChild(titulo)  //add titulo no card criado
             container.appendChild(card)  //add card no container
         });
